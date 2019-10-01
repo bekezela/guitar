@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<HTML>
+  <head>
+    <title>Guitar</title>
+    <style>
+        *{
+            font-family: sans-serif;
+        }
+    #topnav{
+      background-color:grey; /*changing  backgroung color*/
+      padding-top: 15px;/* gives inside space btn margin and text  */
+      padding-bottom: 15px;
+    }
+    #topnav a{
+        text-decoration: none;/*to remove underline and other decorations*/
+        color: white;
+        display: inline-block;/*to move elements next/along to each other*/
+        width: 25%;
+        float:left;/*the nav shld move to the left*/
+        text-align: center;
+      }
+      #topnav a:hover {/*color shld change when mouse hovers on the a tag*/
+        color: green;
+        font-size:  20px;
+      }
+      h1{
+        text-align: center;/*this is to remove text to the center*/
+        color: green;
+      }
+      #main-image{
+        float: left;
+        width: 25%;
+        margin-right: 5%
+      }
+      #intro{
+        float: left;
+        width: 70%;
+      }
+      #gallery img{
+        width: 100%;
+      }
+      #gallery1{
+        width: 30%;
+        float: left;
+        overflow: hidden;
+        clear:both;
+        margin-right: 5%;
+      }
+      #gallery2{
+        width: 30%;
+        float: left;
+        overflow: hidden;
+        margin-right: 5%;
+        /*to hide what ever overflows the elements */
+      }
+      #gallery3{
+        width: 30%;
+        float: left;
+        overflow: hidden;
+      }
+.intro{
+  color: red;
+  font-style: italic;
+}
+
+h3.head{
+  color: green;
+}
+
+footer{
+      background-color: grey;     /*changing  background color*/
+      padding-top: 5px;      /* gives inside space btn margin-top and text  */
+      padding-bottom: 5px;    /* gives inside space btn margin-bottom and text  */
+     text-align: center;   /*  centres the text in the footer*/
+     color: #fff;     /* changes the color of the text*/
+      clear: both;
+    </style>
+  </head>
+  <body>
+    <!---nav starts here---->
+    <div id="topnav">
+      <a href="#">Home</a>
+      <a href="#">Products</a>
+      <a href="#">Gallery</a>
+      <a href="#">Contact</a>
+      <div style="clear:both"></div>
+    </div>
+    <!--nav end here---->
+    <h1>How to learn to play a guitar</h1>
+    <img src="images/guitar1.jpg" alt="guitar" id="main-image">
+    <div id="intro">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </div>
+  <p class="intro">It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    <div id="gallery">
+      <div id="gallery1">
+        <h3 class="head">Creative</h3>
+        <p>Playing a guitar is fun.</p>
+        <img src="images/guitar2.jpg">
+      </div>
+      <div id="gallery2">
+        <h3 class="head">Relaxing</h3>
+        <p>Playing a guitar stimulates your creative juices.</p>
+        <img src="images/guitar3.jpg">
+      </div>
+      <div id="gallery3">
+        <h3 class="head">Relaxing</h3>
+        <p>Playing a guitar is buckets of fun.</p>
+        <img src="images/guitar4.jpg">
+      </div>
+      <div id="gallery1">
+        <h3 class="head">Creative</h3>
+        <p>Playing a guitar is fun.</p>
+        <img src="images/guitar2.jpg">
+      </div>
+      <div id="gallery2">
+        <h3 class="head">Relaxing</h3>
+        <p>Playing a guitar stimulates your creative juices.</p>
+        <img src="images/guitar3.jpg">
+      </div>
+      <div id="gallery3">
+        <h3 class="head">Relaxing</h3>
+        <p>Playing a guitar is buckets of fun.</p>
+        <img src="images/guitar4.jpg">
+      </div>
+      <small>This website will teach you to play a guitar with basic strings. It will require a little patience and a lot of creativity for this exercise to be fun</small>
+   
+   <footer>Copyright &#169;2019 By Bekezela Pangenyama</footer>
+   </div>
+  </body>
+</HTML>
